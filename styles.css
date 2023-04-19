@@ -1,0 +1,25 @@
+.btn{
+    background-color: chartreuse;
+}
+
+.inputBar{
+    padding: 3rem;
+}
+
+.card{
+    padding: 2rem;
+    margin: 10px;
+    border-color: chartreuse;
+    border-radius: 1rem;
+    border-width: 3px;
+}
+
+.temaOscuro{
+    color: aliceblue;
+    background-color: black;
+}
+
+.backCard{
+    color: aliceblue;
+    background-color: darkslateblue;
+}
