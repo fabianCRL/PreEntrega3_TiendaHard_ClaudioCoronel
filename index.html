@@ -13,8 +13,10 @@
 
 <body>
     <h1 class="titulo1">PreEntrega 3 JS Claudio Coronel</h1>
+    <h2 class="titulo2" id="bnvUsuario">Bienvenido usuario</h2>
 
-<!-- -------- Navbar------------ -->
+
+    <!-- -------- Navbar------------ -->
     <div>
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
@@ -26,25 +28,32 @@
             </div>
         </nav>
     </div>
-<!-- ----------Boton Modo Oscuro--------------- -->
+    <!-- ----------Boton Modo Oscuro--------------- -->
 
     <div>
-        <button type="button" class="btn btn-success" id="btnDark" >Tema Oscuro</button>
+        <button type="button" class="btn btn-success" id="btnDark">Tema Oscuro</button>
     </div>
 
-<!---------------Ingreso de Input---------------->
+    <!---------------Ingreso de Input---------------->
     <div class="inputBar">
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Ingrese un producto" aria-label="Recipient's username"
-                aria-describedby="button-addon2">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
-        </div>
+
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="nombre" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <button class="btn" type="submit" id="submitUsuario">Agregar usuario</button>
+        </form>
+
+
     </div>
 
-<!-------------Tarjetas de productos -->
+    <!-------------Tarjetas de productos -->
 
-    <div class="container-fluid row" >
-        <div class="card"  id="tarjeta1" style="width: 18rem;">
+    <div class="container-fluid row">
+        <div class="card" id="tarjeta1" style="width: 18rem;">
             <img src="./img/amd6700.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">TARJETA DE VIDEO AMD 6700.</p>
