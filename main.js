@@ -7,7 +7,15 @@ const card = document.querySelector("#tarjeta1");
 
 btnCambiarTema.addEventListener("click", cambiarTema);
 
-function cambiarTema(){
+function cambiarTema() {
     body.classList.toggle("temaOscuro");
     card.classList.toggle("backCard");
+    if (body.classList.contains("temaOscuro"))
+        btnCambiarTema.innerText = ("Tema Claro");
+    else {
+        btnCambiarTema.innerText = ("Tema Oscuro");
+    }
+    
+
 }
+
